@@ -8,3 +8,7 @@ calling on "plasmawindowed launchpadPlasma" however this leaves no task manager.
 
 I've experimented around with calling both from a shellscript using the application panel and a icon only task manager but it seems to only
 open the first
+
+We could add any wanted apps to steam as a non steam game but this would simplify things by using an application panel.
+Steam can only launch one app at a time.
+A panel can open multiple apps and have them open at the same time even if launched from steam.
