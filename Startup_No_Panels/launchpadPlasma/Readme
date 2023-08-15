@@ -1,1 +1,2 @@
-
+Setting this to launch from steam via shellscript and using kwin rules for the window can make it load maximized.
+It will show a giant gear and when clicked on will open an application dash panel.
