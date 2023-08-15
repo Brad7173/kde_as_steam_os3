@@ -4,4 +4,7 @@ It will show a giant gear and when clicked on will open an application dash pane
 Kwin rules can be imported Settings/System Settings/Window Management/Window Rules (The import button is on the bottom)
 
 *The issue with this is that there is no task manager...if the script for the launchpad was launched from steam you can hit the stop button
-but any apps opened by the application dash panel that get minimized have no way set to bring them to front
+but any apps opened by the application dash panel that get minimized have no way set to bring them to front or in focus.
+
+I've experimented around with calling both from a shellscript using the application panel and a icon only task manager but it seems to only
+open the first
