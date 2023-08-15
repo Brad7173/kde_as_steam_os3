@@ -20,3 +20,14 @@ bashtop.sh
 apt-get install bashtop
 apt-get install glances
 apt-get install bpytop
+
+###########################################################################
+Steam Launch Options relative commands
+-fullscreen - Forces the engine to start in fullscreen mode.
+-windowed or -sw - Forces the engine to start in windowed mode.
+-w [width] - Forces the engine to start with resolution set to [width].
+
+-h [height] - Forces the engine to start with resolution set to [height]. 
+This launch option does not need to be set in the presence of -w. 
+The width value will determine the height automatically.
+###########################################################################
