@@ -14,6 +14,9 @@ https://www.tecmint.com/create-alias-in-linux/                          #
 https://phoenixnap.com/kb/linux-alias-command                           #
 #########################################################################
 These can be launched from within steam as a non steam game.
+bpytop.sh
+glances.sh
+bashtop.sh
 apt-get install bashtop
 apt-get install glances
 apt-get install bpytop
