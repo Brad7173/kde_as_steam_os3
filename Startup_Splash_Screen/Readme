@@ -1,0 +1,11 @@
+You are obviously going to want something different than kde's default splash screen running at boot.
+Settings/System Settings/Appearance/Splash Screen
+
+The best one I've found is:
+https://store.kde.org/p/1427909 "Animated_loading_of_the_KDE_19"
+
+To look better it will need to be modified.
+Once you install it the files are located here:
+/home/yourusername/.local/share/plasma/look-and-feel/Animated_loading_of_the_KDE_19/contents/splash/
+
+You need to edit the Splash.qml file or use the one I've uploaded here to replace theirs.
