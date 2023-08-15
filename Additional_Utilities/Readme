@@ -1,5 +1,5 @@
 #########################################################################
-# For Port_Lookup.sh:                                                   #
+# For Port_Lookup.sh located in the resources folder:                   #
 #########################################################################
 Get root with Sudo -i:                                                  #
 apt install html-xml-utils:                                             #
