@@ -5,3 +5,6 @@ restart or shutdown.
 
 We can use shellscripts from within steam such as one I am still experimenting with
 calling on "plasmawindowed launchpadPlasma" however this leaves no task manager.
+
+I've experimented around with calling both from a shellscript using the application panel and a icon only task manager but it seems to only
+open the first
