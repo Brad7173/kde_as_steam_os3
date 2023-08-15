@@ -31,3 +31,11 @@ Steam Launch Options relative commands
 This launch option does not need to be set in the presence of -w. 
 The width value will determine the height automatically.
 ###########################################################################
+Myself, I created a directory at /home/username/.steam/resources/shellscript/
+and place scripts like these into it.
+My directory structure is:
+.steam/resources/
+.steam/resources/banners
+.steam/resources/icons
+.steam/resources/shellscript
+Then they can easily be used by steam and avoid cluttering your home folder etc
