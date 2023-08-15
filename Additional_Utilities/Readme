@@ -3,3 +3,9 @@ Get root with Sudo -i
 apt install html-xml-utils
 apt install wget
 apt install w3m
+
+
+You can also create an alias and call this as a common command in konsole at any time.
+
+https://www.tecmint.com/create-alias-in-linux/
+https://phoenixnap.com/kb/linux-alias-command
