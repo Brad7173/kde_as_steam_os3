@@ -1,3 +1,4 @@
 User's discretion!!
 sudo add-apt-repository ppa:ubuntuhandbook1/conkymanager2
 sudo apt install conky-manager2
+sudo apt update
