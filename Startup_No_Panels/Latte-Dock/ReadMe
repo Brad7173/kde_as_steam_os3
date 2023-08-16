@@ -6,3 +6,5 @@ Observed results of script:
 When "Play" is pressed big picture mode exits to normal mode and latte dock appears at the bottom of the desktop.
 When "Stop" is pressed the latte dock dissappears. If set for a custom start icon on latte dock, it holds the icon
 when stopped and restarted.
+
+Check your latte dock settings by right clicking on the dock and uncheck "enable autostart during startup".
