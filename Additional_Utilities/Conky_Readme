@@ -2,3 +2,9 @@ User's discretion!!
 sudo add-apt-repository ppa:ubuntuhandbook1/conkymanager2
 sudo apt install conky-manager2
 sudo apt update
+
+Mine was designed to give me the look and feel of being online while in offline mode.
+The intended purpose if I utilize what I already had will be when the "Stop" button is
+pressed in steam; the latte-dock will dissappear. The conky's will dissappear. Steam
+will be the only thing left on a blank desktop and it can now be taken back into big
+picture mode.
