@@ -12,3 +12,7 @@ open the first
 We could add any wanted apps to steam as a non steam game but this would simplify things by using an application panel.
 Steam can only launch one app at a time.
 A panel can open multiple apps and have them open at the same time even if launched from steam.
+
+**************************************************************************************************
+Latte-Dock is the answer needed!! It can be called from a shell script and launched from steam.
+**************************************************************************************************
