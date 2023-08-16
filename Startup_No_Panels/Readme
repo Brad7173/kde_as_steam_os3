@@ -3,7 +3,11 @@ This is not without quarks. You can always exit big picture mode and right click
 and add a default kubuntu panel but this is going to get tiring having to remove it before you
 restart or shutdown.
 
-We can use shellscripts from within steam.
+We can use shellscripts from within steam by adding a non steam game. Then we can customize it's
+icon in the properties box and customize it's banner image and custom logo in the normal window.
+For grid view icons, I recomend you go here:
+https://github.com/SteamGridDB/SGDBoop
+https://www.steamgriddb.com/boop
 
 **************************************************************************************************
 Latte-Dock is the answer needed!! It can be called from a shell script and launched from steam.
