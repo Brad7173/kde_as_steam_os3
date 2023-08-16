@@ -1,3 +1,8 @@
 You can use the included icon for your start button on the latte dock.
 I placed the shellscriipt inside "/home/yourusername/.steam/resources/shellscript/" folder then called it as a non steam game.
 You can install Latte-Dock via discover in Kubuntu.
+
+Observed results of script:
+When "Play" is pressed big picture mode exits to normal mode and latte dock appears at the bottom of the desktop.
+When "Stop" is pressed the latte dock dissappears. If set for a custom start icon on latte dock, it holds the icon
+when stopped and restarted.
