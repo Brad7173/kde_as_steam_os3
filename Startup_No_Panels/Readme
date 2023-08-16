@@ -3,15 +3,7 @@ This is not without quarks. You can always exit big picture mode and right click
 and add a default kubuntu panel but this is going to get tiring having to remove it before you
 restart or shutdown.
 
-We can use shellscripts from within steam such as one I am still experimenting with
-calling on "plasmawindowed launchpadPlasma" however this leaves no task manager.
-
-I've experimented around with calling both from a shellscript using the application panel and a icon only task manager but it seems to only
-open the first
-
-We could add any wanted apps to steam as a non steam game but this would simplify things by using an application panel.
-Steam can only launch one app at a time.
-A panel can open multiple apps and have them open at the same time even if launched from steam.
+We can use shellscripts from within steam.
 
 **************************************************************************************************
 Latte-Dock is the answer needed!! It can be called from a shell script and launched from steam.
