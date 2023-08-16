@@ -1,0 +1,66 @@
+################################
+Katie M. Nelson
+################################
+#Right side panel
+#Resolution 2560x1440 (16:9)
+################################
+# Default Font.
+use_xft yes
+xftfont Droid Sans:size=9
+override_utf8_locale yes
+
+# Performance Settings.
+#update_interval 1
+update_interval 1.0
+total_run_times 0
+double_buffer yes
+no_buffers yes
+net_avg_samples 2
+text_buffer_size 1024
+
+# Windows Configuration.
+own_window yes
+own_window_transparent yes
+own_window_argb_visual yes
+#own_window_argb_value 0
+own_window_class conky
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+default_color white
+default_outline_color white
+default_shade_color white
+background no
+
+# Border.
+draw_borders no
+draw_blended no
+border_margin 1
+
+# Draw Framework.
+draw_shades no
+
+# Colors.
+color0 DD3A21
+minimum_size 645 1380
+default_graph_size 30 292
+alignment top_left
+gap_x 10
+gap_y 5
+
+TEXT
+${font Fira Mono:style=Bold:size=12}${color silver}
+${execi 600 /home/yourusername/.conky/net/.conky/get_public_ip_info.sh}
+${font Fira Mono:style=Bold:size=12}${color white}
+Network Status:
+${font Fira Mono:style=Bold:size=12}${color silver}
+${alignc}${upspeedgraph enp4s0 50,670 0EA9E4 0045C8 -l}
+${voffset -50}${goto 50}Up speed: ${upspeed enp4s0} ${goto 470}Total: ${totalup enp4s0}
+${voffset 2}
+${alignc}${downspeedgraph enp4s0 50,670 0EA9E4 0045C8 -t -l}
+${voffset -50}${goto 50}Down speed: ${downspeed enp4s0} ${goto 470}Total: ${totaldown enp4s0}
+${font Fira Mono:style=Bold:size=12}${color white}
+${voffset 2}
+State   Recv-Q   Send-Q    Local Address:Port   Peer Address:Port
+${voffset -38}
+${font Fira Mono:style=Bold:size=12}${color silver}
+${execi 2 ss -tanH}
