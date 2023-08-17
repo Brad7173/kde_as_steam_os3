@@ -15,3 +15,6 @@ It more than doubled the speed steam loads!!
 
 https://github.com/thor27/steam-login/ ~ this did not work for me and I wanted a working solution. I prefer to retain both a dedicated
 gaming os and yet a full blown operating system.
+
+https://github.com/boppreh/steamgrid
+https://github.com/Brad7173/Steam_App_Manifest_Catalog
