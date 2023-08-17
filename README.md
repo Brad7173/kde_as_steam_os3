@@ -20,3 +20,12 @@ https://github.com/boppreh/steamgrid
 
 
 https://github.com/Brad7173/Steam_App_Manifest_Catalog
+
+============Steam Grid ICons==============================================
+Upon further inspection, I discovered that when you add a custom logo to
+a non steam game it will show up in this folder:
+/home/yourusername/.steam/steam/userdata/1039566115/config/grid/
+your grid icon wil have the same number as your custom logo.
+If you create an image and save it with that number followed by a lower case "p"
+it will show up in grid view.
+Hero icons or recently played have a "_hero.png" after the same number.
