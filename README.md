@@ -36,3 +36,7 @@ If you create an image and save it with that number followed by a lower case "p"
 it will show up in grid view.
 
 Hero icons or recently played have a "_hero.png" after the same number.
+
+The simplest solution for customization is to boop them or bookmark that
+
+folder in dolphin file browser.
