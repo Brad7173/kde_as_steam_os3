@@ -60,3 +60,5 @@ folder in dolphin file browser.
 I could write an app to handle this and the end user just adds their image but this would be vain.
 
 The _hero icons you will have to boop them.
+
+*If I create a stripped down (img) image from my hard drive it will contain sgdboop.
