@@ -22,3 +22,4 @@ Pay attention to this:
 "Monitoring programs won't work until the needed modules are
 loaded. You may want to run '/etc/init.d/kmod start'
 to load them."
+!! reboot !!
