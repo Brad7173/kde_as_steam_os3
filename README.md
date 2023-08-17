@@ -49,6 +49,8 @@ https://github.com/Brad7173/Steam_App_Manifest_Catalog
 
 *If I build an image from disk...it will contain this!!
 
+https://github.com/Brad7173/Steam_App_Manifest_Catalog/blob/main/screenshots/Screenshot_1.png
+
 ============Steam Grid Icons==============================================
 
 Upon further inspection, I discovered that when you add a custom logo to
