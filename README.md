@@ -21,6 +21,8 @@ Right click desktop ...Configuire Desktop and Wallpaper...Window Type:Plain Colo
 
 This increases the speed that steam loads.
 
+No desktop wallpaper on load, not widgets, no panels!! *Note the DE in KDE stands for Desktop Environment.
+
 The next thing I discovered was removing any default or other panels from the dekstop as well as any widgets.
 
 I'm using the saturn boot animation for steam's big picture mode and this works and blends in flawlessly.
