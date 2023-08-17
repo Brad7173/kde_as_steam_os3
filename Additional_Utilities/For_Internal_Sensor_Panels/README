@@ -23,3 +23,6 @@ You need to make sure they are executable in the permissions tab or use chmod.
 You can use these as a startup script or however needed.
 I can't guarantee this will work for every linux os but should for Ubuntu/Kubuntu distros.
 Mcopy is needed for this to work and for your os there may be other install methods.
+
+*Can't write to xorg.conf?
+sudo chmod +x /usr/share/screen-resolution-extra/nvidia-polkit
