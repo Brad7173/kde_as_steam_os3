@@ -19,7 +19,7 @@ This increases the speed that steam loads.
 The next thing I discovered was removing any default or other panels from the dekstop as well as any widgets.
 
 I'm using the saturn boot animation for steam's big picture mode and this works and blends in flawlessly.
-It more than doubled the speed steam loads!!
+It more than doubled the speed steam loads!! (Using a boot loader like refind did slow this down!)
 
 
 https://github.com/thor27/steam-login/ ~ this did not work for me and I wanted a working solution. I prefer to retain both a dedicated
