@@ -1,0 +1,234 @@
+################################
+#Katie M. Nelson
+#For Steam OS 3
+################################
+#Right side panel
+#Resolution 2560x1440 (16:9)
+################################
+# Default Font.
+use_xft yes
+xftfont Droid Sans:size=9
+override_utf8_locale yes
+
+# Performance Settings.
+#update_interval 1
+update_interval 1.0
+total_run_times 0
+double_buffer yes
+no_buffers yes
+net_avg_samples 2
+text_buffer_size 1024
+
+# Windows Configuration.
+own_window yes
+################################
+own_window_type conky
+#own_window_type desktop
+
+own_window_transparent no
+#own_window_transparent yes
+
+own_window_argb_value 51
+#own_window_argb_value 50
+
+own_window_argb_visual no
+#own_window_argb_visual yes
+
+#own_window_class override
+own_window_class conky-Panel-Main
+own_window_colour 040404
+#own_window_colour 2A2E32
+default_color B7B2AD
+###############################
+##Transparent
+#own_window yes
+#own_window_transparent yes
+#own_window_type conky
+#own_window_argb_visual yes
+#own_window_class override
+################################
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# Border.
+draw_borders no
+border_margin 1
+
+# Draw Framework.
+draw_shades no
+
+# Colors.
+color0 DD3A21
+
+# Dimension minimum size.
+minimum_size 310 1440
+
+# Graph Size
+default_graph_size 30 292
+
+# Position of Conky.
+alignment top_right
+gap_x 0
+gap_y 0
+
+TEXT
+#########System Info#############
+    ${image ~/.conky/Steam-Conky-Panel/.conky/images/Steam3_1.png -p 108,2 -s 105x105 -f 300}
+    ${font Droid Sans:style=Bold:size=36}${color silver}
+    ${voffset 24}
+    ${alignc}Steam OS 3
+    ${font Droid Sans:style=Bold:size=28}${color silver}
+    ${voffset -56}
+    ${alignc}${execi 999999999 ~/.conky/Steam-Conky-Panel/.conky/get_distro_version.sh}
+    ${alignc}Kernel Version: ${execi 999999999 uname -r}
+    ${alignc}KDE Plasma Version: ${execi 999999999 ~/.conky/Steam-Conky-Panel/.conky/get_kde_plasma_version.sh}
+    ${alignc}${execi 999999999 ~/.conky/Steam-Conky-Panel/.conky/get_qt_ver.sh}
+#
+#########Divider#################
+    ${image ~/.conky/Steam-Conky-Panel/.conky/images/bar1.png -p 8,238 -s 314x5 -f 300}
+#########Divider#################
+#
+#########CPU INFO################
+    ${image ~/.conky/Steam-Conky-Panel/.conky/images/inteli5.png -p 20,258 -s 60x45 -f 300}
+    #${image ~/.conky/Steam-Conky-Panel/.conky/images/inteli5.png -p 26,312 -s 292x120 -f 300}
+    ${voffset -59}${font Droid Sans:style=Bold:size=30}${color silver}
+    ${alignc}${goto 146}${execi 999999999 ~/.conky/Steam-Conky-Panel/.conky/get_cpu_vendor_id.sh}
+    ${alignc}${goto 100}${execi 999999999 ~/.conky/Steam-Conky-Panel/.conky/get_cpu_model_name.sh}
+    ${voffset -48}
+    ${font DejaVu:bold:size=22}
+    ${voffset 0}${alignc}${goto 30}${cpugraph cpu1 30,292 0EA9E4 0045C8 -t}
+    ${voffset -40}${goto 37} ${cpu cpu1} %${goto 146}${freq 1} Mhz${alignr 15}${offset -23}${execi 20 sensors | grep 'Core 0'|cut -c16-18}° C
+    ${voffset 0}${alignc}${goto 30}${cpugraph cpu2 30,292 0EA9E4 0045C8 -t}
+    ${voffset -40}${goto 37}${cpu cpu2} %${goto 146}${freq 2} Mhz ${alignr 15}${offset -23}${execi 20 sensors | grep 'Core 1'|cut -c16-18}° C
+    ${voffset 0}${alignc}${goto 30}${cpugraph cpu3 30,292 0EA9E4 0045C8 -t}
+    ${voffset -40}${goto 37} ${cpu cpu3} %${goto 146}${freq 3} Mhz${alignr 15}${offset -23}${execi 20 sensors | grep 'Core 2'|cut -c16-18}° C
+    ${voffset 0}${alignc}${goto 30}${cpugraph cpu4 30,292 0EA9E4 0045C8 -t}
+    ${voffset -40}${goto 37}${cpu cpu4} %${goto 146}${freq 4} Mhz ${alignr 15}${offset -23}${execi 20 sensors | grep 'Core 3'|cut -c16-18}° C
+#
+######### Divider #################
+    ${image ~/.conky/Steam-Conky-Panel/.conky/images/bar1.png -p 8,459 -s 314x5 -f 300}
+######### Divider #################
+#
+######## MOTHERBOARD INFO #########
+    ${image ~/.conky/Steam-Conky-Panel/.conky/images/asus1.png -p 24,476 -s 90x40 -f 300}
+    ${font Droid Sans:style=Bold:size=22}${color silver}
+    ${voffset -28}
+    ${goto 138}${alignc}${execi 999999999 cat /sys/devices/virtual/dmi/id/board_vendor}
+    ${goto 158}${alignc}${execi 999999999 cat /sys/devices/virtual/dmi/id/board_name}  ${exec cat /sys/devices/virtual/dmi/id/board_version}
+#
+######### Divider #################
+    ${image ~/.conky/Steam-Conky-Panel/.conky/images/bar1.png -p 8,528 -s 314x5 -f 300}
+######### Divider #################
+#
+######### MEMORY INFO #############
+        ${alignc}${image ~/.conky/Steam-Conky-Panel/.conky/images/gskill_ripjaw1.png -p 20,534 -s 300x95 -f 300}
+        ${font DejaVu:bold:size=28}${color white}
+        ${voffset -72}
+        ${offset 150}32GiB DDR
+        ${font DejaVu:bold:size=24}
+        ${voffset -21}
+        ${goto 34}RAM: ${memperc}% Free: ${memeasyfree} Used: ${mem}
+        ${goto 49}Swap: ${swapperc}% Free: ${swapfree} Used: ${swap}
+#
+######### Divider #################
+    ${image ~/.conky/Steam-Conky-Panel/.conky/images/bar1.png -p 8,631 -s 314x5 -f 300}
+######### Divider #################
+#
+######### GPU INFO ################
+        ${image ~/.conky/Steam-Conky-Panel/.conky/images/nvidia_gf.png -p 18,645 -s 122x122 -f 300}
+        ${font Droid Sans:style=Bold:size=22}${color silver}
+        ${voffset -58}
+        ${alignc}${offset 66}${execi 999999999 ~/.conky/Steam-Conky-Panel/.conky/get_gpu_man.sh}
+        ${alignc}${offset 66}${execi 999999999 ~/.conky/Steam-Conky-Panel/.conky/get_gpu_model.sh}
+        ${alignc}${offset 66}GPU Memory = 4GiB
+        ${alignc}${offset 66}Fan Speed ${exec nvidia-settings -q GPUCurrentFanSpeed -t}%
+        ${alignc}${offset 66}Fan RPM ${exec nvidia-settings -q GPUCurrentFanSpeedRPM -t}
+        ${voffset -8}
+        ${voffset 0}${alignc}${goto 30}${cpugraph gpu1 30,292 0EA9E4 0045C8 -t}
+        ${voffset -57}
+        ${goto 37}${font DejaVu:bold:size=22}${exec nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader}${goto 146}${exec nvidia-smi --query-gpu=clocks.mem --format=csv,noheader}${alignr 15}${offset -23}${exec nvidia-settings -tq '[gpu:0]/GPUCoreTemp'}°C
+#
+######### Divider #################
+    ${image ~/.conky/Steam-Conky-Panel/.conky/images/bar1.png -p 8,819 -s 314x5 -f 300}
+######### Divider #################
+#
+######### CASE INFO ###############
+        ${image ~/.conky/Steam-Conky-Panel/.conky/images/phanteks.png -p 72,824 -s 200x55 -f 300}
+        ${voffset -54}
+        ${font Droid Sans:style=Bold:size=26}${color silver}
+        ${alignc}${voffset 40}Enthoo Pro Tempered Glass
+        ${voffset -40}
+        ${font Droid Sans:style=Bold:size=22}${color silver}
+        ${alignc}Case Temp = ${acpitemp}°C
+        ${alignc}Case FAN 1 = ${exec ~/.conky/Steam-Conky-Panel/.conky/get_fan1_rpm.sh}
+        ${alignc}Case FAN 2 = ${exec ~/.conky/Steam-Conky-Panel/.conky/get_fan2_rpm.sh}
+        ${alignc}Case FAN 3 = ${exec ~/.conky/Steam-Conky-Panel/.conky/get_fan3_rpm.sh}
+        ${alignc}Case FAN 4 = ${exec ~/.conky/Steam-Conky-Panel/.conky/get_fan4_rpm.sh}
+#
+######### Divider #################
+    ${image ~/.conky/Steam-Conky-Panel/.conky/images/bar1.png -p 8,1002 -s 314x5 -f 300}
+######### Divider #################
+#
+######### HDD INFO ################
+    ${voffset -80}
+    ${font Droid Sans:style=Bold:size=22}${color silver}
+
+                ${color white}
+            ${goto 110}Steam-OS /dev/sda2
+                ${color silver}
+                ${voffset -45}
+        ${alignc}${goto 46}${fs_bar 6,260 /}
+                ${voffset -25}
+            ${goto 74}Disk: ${fs_used /} of ${fs_size /} used
+
+                ${voffset -50}
+                ${color white}
+            ${goto 120}Media /dev/sdd10
+                ${color silver}
+                ${voffset -45}
+        ${alignc}${goto 46}${fs_bar 6,260 /media/katie/Media/}
+                ${voffset -25}
+            ${goto 74}Disk: ${fs_used /media/katie/Media/} of ${fs_size /media/katie/Media/} used
+
+                ${voffset -50}
+                ${color white}
+            ${goto 120}NAS /dev/sdf1
+                ${color silver}
+                ${voffset -45}
+        ${alignc}${goto 46}${fs_bar 6,260 /media/katie/NAS/}
+                ${voffset -25}
+            ${goto 74}Disk: ${fs_used /media/katie/NAS/} of ${fs_size /media/katie/NAS/} used
+
+                ${voffset -50}
+                ${color white}
+            ${goto 115}Music /dev/sdd1
+                ${color silver}
+                ${voffset -45}
+        ${alignc}${goto 46}${fs_bar 6,260 /media/katie/Music/}
+                ${voffset -25}
+            ${goto 74}Disk: ${fs_used /media/katie/Music/} of ${fs_size /media/katie/Music/} used
+
+                ${voffset -50}
+                ${color white}
+            ${goto 115}Documents /dev/sdd2
+                ${color silver}
+                ${voffset -45}
+        ${alignc}${goto 46}${fs_bar 6,260 /media/katie/Documents/}
+                ${voffset -25}
+            ${goto 74}Disk: ${fs_used /media/katie/Documents/} of ${fs_size /media/katie/Documents/} used
+
+                ${voffset -50}
+                ${color white}
+            ${goto 110}Downloads /dev/sdd3
+                ${color silver}
+                ${voffset -45}
+        ${alignc}${goto 46}${fs_bar 6,260 /media/katie/Downloads/}
+                ${voffset -25}
+            ${goto 74}Disk: ${fs_used /media/katie/Downloads/} of ${fs_size /media/katie/Downloads/} used
+
+#
+######### Divider #################
+#${image ~/.conky/Steam-Conky-Panel/.conky/images/bar1.png -p 8,1150 -s 314x5 -f 300}
+######### Divider #################
+#
+
+######### END OF CODE ############
