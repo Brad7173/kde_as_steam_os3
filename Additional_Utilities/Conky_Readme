@@ -12,7 +12,7 @@ picture mode.
 Most of my old code seems intact but I need to shift some text left or right.
 !! Imagine this on a 62 inch tv !!! ~ get your game face on !!
 
-To use my conky these are crucual unless you want to readjust the code:
+To use my conky (Steam-Conky-Panel) these are crucual unless you want to readjust the code:
 Resolution: 2560 x 1440 (16:9)
 Fonts: all KDE font's size 18 except small font which is 16
 sudo sensors-detect - you need to run this first
