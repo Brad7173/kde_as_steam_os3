@@ -3,6 +3,9 @@ Running kde or Kubuntu 22.04 LTS as a Steam OS:
 
 https://store.steampowered.com/steamos ~ this is nothing more than a recovery image!!
 
+I asked my uncle about his steam deck and guided him into the settings from his desktop
+I quickly discovered it was running KDE Plasma.
+
 My idea behind this is to have a dedicated OS for Steam but 
 retain the ability to use all of Kubuntu's installed apps etc.
 
