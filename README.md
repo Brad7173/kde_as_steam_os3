@@ -40,3 +40,5 @@ Hero icons or recently played have a "_hero.png" after the same number.
 The simplest solution for customization is to boop them or bookmark that
 
 folder in dolphin file browser.
+
+I could write an app to handle this and the end user just adds their image but this would be vain.
