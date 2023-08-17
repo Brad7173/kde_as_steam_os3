@@ -47,6 +47,8 @@ https://www.steamgriddb.com/boop
 
 https://github.com/Brad7173/Steam_App_Manifest_Catalog
 
+*If I build an image from disk...it will contain this!!
+
 ============Steam Grid Icons==============================================
 
 Upon further inspection, I discovered that when you add a custom logo to
