@@ -3,10 +3,11 @@ Running kde or Kubuntu 22.04 LTS as a Steam OS:
 
 My idea behind this is to have a dedicated OS for Steam but 
 retain the ability to use all of Kubuntu's installed apps etc.
+
 ###########################################################################
 
-One of the first things I noticed when starting steam at startup in big picture mode is the transition between the desktop for kde loading and
-steam going into big picture mode. It looks awful!!
+One of the first things I noticed when starting steam at startup in big picture mode is the 
+transition between the desktop for kde loading and steam going into big picture mode. It looks awful!!
 
 This can be resolved by not using any wallpaper. Change to nothing but a black color.
 This increases the speed that steam loads.
