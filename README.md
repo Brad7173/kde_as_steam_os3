@@ -46,3 +46,5 @@ The simplest solution for customization is to boop them or bookmark that
 folder in dolphin file browser.
 
 I could write an app to handle this and the end user just adds their image but this would be vain.
+
+The _hero icons you will have to boop them.
