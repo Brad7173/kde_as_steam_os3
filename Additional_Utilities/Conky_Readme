@@ -16,3 +16,9 @@ To use my conky (Steam-Conky-Panel) these are crucual unless you want to readjus
 Resolution: 2560 x 1440 (16:9)
 Fonts: all KDE font's size 18 except small font which is 16
 sudo sensors-detect - you need to run this first
+
+Pay attention to this:
+
+"Monitoring programs won't work until the needed modules are
+loaded. You may want to run '/etc/init.d/kmod start'
+to load them."
