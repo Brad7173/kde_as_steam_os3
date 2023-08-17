@@ -24,3 +24,5 @@ Pay attention to this:
 loaded. You may want to run '/etc/init.d/kmod start'
 to load them."
 !! reboot !!
+
+Steam-Conky-Panel.sh can be added to steam as a non steam game
