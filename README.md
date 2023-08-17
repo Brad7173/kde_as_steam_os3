@@ -22,6 +22,7 @@ https://github.com/boppreh/steamgrid
 https://github.com/Brad7173/Steam_App_Manifest_Catalog
 
 ============Steam Grid ICons==============================================
+
 Upon further inspection, I discovered that when you add a custom logo to
 
 a non steam game it will show up in this folder:
