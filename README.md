@@ -51,6 +51,8 @@ https://github.com/Brad7173/Steam_App_Manifest_Catalog
 
 https://github.com/Brad7173/Steam_App_Manifest_Catalog/blob/main/screenshots/Screenshot_1.png
 
+https://github.com/Brad7173/Steam_App_Manifest_Catalog/blob/main/screenshots/Screenshot_3.png
+
 ============Steam Grid Icons==============================================
 
 Upon further inspection, I discovered that when you add a custom logo to
