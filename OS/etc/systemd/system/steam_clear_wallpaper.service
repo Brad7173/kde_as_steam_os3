@@ -5,8 +5,8 @@ Before=shutdown.target
 
 [Service]
 Type=oneshot
-User=smeterlink
-Group= smeterlink
+User=katie
+Group=katie
 ExecStart=/etc/skel/.steam/resources/shellscript/Set_Wallpaper_Plain_Color.sh
 
 [Install]
