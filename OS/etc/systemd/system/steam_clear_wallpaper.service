@@ -1,13 +1,9 @@
 [Unit]
-Description=Pre-Shutdown Processes
-DefaultDependencies=no
-Before=shutdown.target
+Description=Pre-Shutdown Processes to clear any wallpapers
 
 [Service]
 Type=oneshot
-User=katie
-Group=katie
 ExecStart=/etc/skel/.steam/resources/shellscript/Set_Wallpaper_Plain_Color.sh
 
 [Install]
-WantedBy=halt.target reboot.target shutdown.target
+WantedBy=multi-user.target
