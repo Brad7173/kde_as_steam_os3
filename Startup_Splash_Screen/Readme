@@ -9,3 +9,7 @@ Once you install it the files are located here:
 /home/yourusername/.local/share/plasma/look-and-feel/Animated_loading_of_the_KDE_19/contents/splash/
 
 You need to edit the Splash.qml file or use the one I've uploaded here to replace theirs.
+
+For animation, I'm using saturn.
+
+https://www.youtube.com/watch?v=5EPSfhkT6qk&t=105s
