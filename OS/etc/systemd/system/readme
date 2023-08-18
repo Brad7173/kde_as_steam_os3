@@ -1,1 +1,2 @@
 sudo systemctl daemon-reload
+sudo systemctl enable steam_clear_Wallpaper.service
