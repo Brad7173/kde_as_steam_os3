@@ -90,6 +90,8 @@ sudo apt-get install antimicro -y
 sudo apt-get install android-file-transfer -y
 sudo apt-get install cpu-x -y
 sudo apt-get install cpuinfo -y
+sudo apt-get install xautomation
+sudo apt-get install xdg-utils - https://www.freedesktop.org/wiki/Software/xdg-utils/
 
 sudo apt install plasma-discover-backend-flatpak
 sudo apt update
