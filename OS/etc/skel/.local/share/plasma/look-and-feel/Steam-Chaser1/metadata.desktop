@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment=Steam-Chaser1
+
+Encoding=UTF-8
+Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
+Name=Steam-Chaser1
+
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Name=Steam-Chaser1
+X-KDE-PluginInfo-Author=Katie M Nelson
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-License=LGPLv3
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-Plasma-MainScript=defaults 
