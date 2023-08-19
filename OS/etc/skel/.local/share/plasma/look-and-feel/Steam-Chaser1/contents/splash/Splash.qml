@@ -59,18 +59,7 @@
                 property int smallSpacing: Math.max(2, gridUnit/4)
             }
     
-            Image {
-                id: logo
-                //match SDDM/lockscreen avatar positioning
-                property real size: units.gridUnit * 8
-    
-                anchors.centerIn: parent
-    
-                source: "images/plasma.svgz"
-    
-                sourceSize.width: size
-                sourceSize.height: size
-            }
+
     
             Image {
                 id: busyIndicator
@@ -102,13 +91,9 @@
                     // https://bugreports.qt.io/browse/QTBUG-67007
                     renderType: Screen.devicePixelRatio % 1 !== 0 ? Text.QtRendering : Text.NativeRendering
                     anchors.verticalCenter: parent.verticalCenter
-                    text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "This is the first text the user sees while starting in the splash screen, should be translated as something short, is a form that can be seen on a product. Plasma is the project name so shouldn't be translated.", "Plasma made by KDE")
+                    text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "This is the first text the user sees while starting in the splash screen, should be translated as something short, is a form that can be seen on a product. Plasma is the project name so shouldn't be translated.", "Steam OS 3 Loading...")
                 }
-                Image {
-                    source: "images/kde.svgz"
-                    sourceSize.height: units.gridUnit * 2
-                    sourceSize.width: units.gridUnit * 2
-               }
+
            }
        }
    
