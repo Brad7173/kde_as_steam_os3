@@ -1,0 +1,39 @@
+#######################################################################################
+#  Steam-Saturn-Pre-Load       https://github.com/Brad7173                            #
+#                                                                                     #
+# Original artwork by Steam and Valve(c) https://store.steampowered.com/              #
+#                                                                                     #
+# Intended to be used as a splash screen that loads                                   #
+# before the Steam Big Picture animation - Saturn.                                    #
+# (You have to use steam points to unlock the big picture animations.)                #
+#                                                                                     #
+# These two blend well together.                                                      #
+#                                                                                     #
+# ~ By Katie M. Nelson 8/18/23                                                        #
+#######################################################################################
+
+The splash timing can be modified by changing the coresponding numbers from 150-900
+in the line below located inside the
+"Steam-Saturn-Pre-Load/contents/splash/Splash.qml" file
+
+source: "images/animation_to_gif_MOTION_x_900.gif"
+
+Valid images would be:
+animation_to_gif_MOTION_x_150.gif
+animation_to_gif_MOTION_x_200.gif
+animation_to_gif_MOTION_x_250.gif
+animation_to_gif_MOTION_x_300.gif
+animation_to_gif_MOTION_x_350.gif
+animation_to_gif_MOTION_x_400.gif
+animation_to_gif_MOTION_x_450.gif
+animation_to_gif_MOTION_x_500.gif
+animation_to_gif_MOTION_x_550.gif
+animation_to_gif_MOTION_x_600.gif
+animation_to_gif_MOTION_x_650.gif
+animation_to_gif_MOTION_x_700.gif
+animation_to_gif_MOTION_x_750.gif
+animation_to_gif_MOTION_x_800.gif
+animation_to_gif_MOTION_x_850.gif
+animation_to_gif_MOTION_x_900.gif
+
+Save the file and exit.
