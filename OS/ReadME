@@ -5,4 +5,87 @@ with root user structure such as
 /etc/skel/Appimages
 /etc/skel/Icons
 /etc/skel/.local
+/etc/skel/.local/share/plasma/
+/etc/skel/.local/share/user-places.xbel
+/etc/skel/.local/share/color-schemes/
+/etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc * Panels etc stored here
+/etc/skel/.local/share/konsole/ ~ profiles
 /etc/skel/.conky
+/usr/share/sddm/themes/ ~ login screens
+/opt ~ can be used to store folders such as: shellscripts,icons, etc
+usr/share/plasma/wallpapers/wallpapers/ ?konsole bgds
+
+*
+Restore theme settings and customizations
+sudo apt-get install python3-pip
+python3 -m pip install konsave
+?post install script
+*
+Before compiling iso with cubic:
+sudo apt-get install lm-sensors -y
+sudo apt-get install conky-all -y
+sudo apt-get install steam -y
+sudo apt-get install latte-dock -y
+sudo apt-get install epiphany-browser -y
+sudo apt-get install xdotool -y
+sudo apt-get install apper -y
+sudo apt-get install bashtop -y
+sudo apt-get install bpytop -y
+sudo apt-get install glances -y
+sudo apt-get install clamav -y
+sudo apt-get install clamtk -y
+sudo apt-get install gimp -y
+sudo apt-get install gimp-help-en -y
+sudo apt-get install git -y
+sudo apt-get install gnome-disk-utility -y
+sudo apt-get install gnome-nettool -y
+sudo apt-get install gsmartcontrol -y
+sudo apt-get install gufw -y
+sudo apt-get install gzip -y
+sudo apt-get install hardinfo -y
+sudo apt-get install hashcheck -y
+sudo apt-get install htop -y
+sudo apt-get install iftop -y
+sudo apt-get install nethogs -y
+sudo apt-get install kodi -y
+sudo apt-get install krusader -y
+sudo apt-get install language-pack-en -y
+sudo apt-get install language-pack-en-base -y
+sudo apt-get install language-pack-gnome-en -y
+sudo apt-get install kodi -y
+sudo apt-get install nfoview -y
+sudo apt-get install psensor -y
+sudo apt-get install python3 -y
+sudo apt-get install python3-dev -y
+sudo apt-get install python3-notify2 -y
+sudo apt-get install python3-numpy -y
+sudo apt-get install python3-pip -y
+sudo apt-get install python3-protobuf -y
+sudo apt-get install python3-requests -y
+sudo apt-get install python3-serial -y
+sudo apt-get install python3-setuptools -y
+sudo apt-get install python3-tk -y
+sudo apt-get install python3-usb -y
+sudo apt-get install python3-virtualenv -y
+sudo apt-get install python3-websockets -y
+sudo apt-get install q4wine -y
+sudo apt-get install qjoypad -y
+sudo apt-get install qmmp -y
+sudo apt-get install scrcpy -y
+sudo apt-get install simplescreenrecorder -y
+sudo apt-get install thunderbird-locale-en -y
+sudo apt-get install traceroute -y
+sudo apt-get install wget -y
+sudo apt-get install curl -y
+sudo apt-get install winetricks -y
+sudo apt-get install wmctrl -y
+sudo apt-get install wxhexeditor -y
+sudo apt-get install xarchiver -y
+sudo apt-get install xsensors -y
+sudo apt-get install mplayer-gui -y
+sudo apt-get install filezilla -y
+sudo apt-get install ca-certificates -y
+sudo apt-get install apt-transport-https -y
+sudo apt-get install antimicro -y
+sudo apt-get install android-file-transfer -y
+
