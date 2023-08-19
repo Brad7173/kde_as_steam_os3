@@ -88,4 +88,13 @@ sudo apt-get install ca-certificates -y
 sudo apt-get install apt-transport-https -y
 sudo apt-get install antimicro -y
 sudo apt-get install android-file-transfer -y
+sudo apt-get install cpu-x -y
+sudo apt-get install cpuinfo -y
 
+sudo apt install plasma-discover-backend-flatpak
+sudo apt update
+flatpak install flathub org.mozilla.firefox
+
+sudo apt install snapd
+sudo apt update
+sudo snap install spectacle
