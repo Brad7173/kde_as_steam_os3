@@ -1,3 +1,5 @@
+~/.config/ksplashrc or /home/yourusername/.config/ksplashrc contains the applied splash screen theme
+
 Any folders inside the  etc/skel/ directory will get copied into the user's home folder on install.
 with root user structure such as
 /etc/skel/Desktop
