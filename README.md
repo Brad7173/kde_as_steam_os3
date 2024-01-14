@@ -78,3 +78,6 @@ I could write an app to handle this and the end user just adds their image but t
 The _hero icons you will have to boop them.
 
 *If I create a stripped down (img) image from my hard drive it will contain sgdboop.
+
+This project as for availability to the public is at a halt. There was a 'high tech' or other effort to sabotague this project
+in favor of microplop and windorks products.
